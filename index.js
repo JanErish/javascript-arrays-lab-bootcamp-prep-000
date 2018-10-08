@@ -33,5 +33,5 @@ function removeFirstKitten() {
 }
 
 function removeLastKitten() {
-  
+  return kittens.slic(0, kittens.length -1)
 }
